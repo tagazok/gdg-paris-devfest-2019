@@ -68,11 +68,30 @@
   },
   "partners" : [ {
     "logos" : [ {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
+      "logoUrl" : "../images/partners/logo-sfeir.png",
+      "name" : "SFEIR",
+      "url" : "https://www.sfeir.com"
+    }, {
+      "logoUrl" : "../images/partners/logo-cirruseo.png",
+      "name" : "Cirruseo",
+      "url" : "https://www.cirruseo.com"
+    }, {
+      "logoUrl" : "../images/partners/logo-revevol.png",
+      "name" : "Revevol",
+      "url" : "https://www.revevol.com"
     }],
-    "title" : " "
+    "title" : "Platinium"
+  }, {
+    "logos" : [ {
+      "logoUrl" : "../images/partners/logo-jems.png",
+      "name" : "JEMS Datafactory",
+      "url" : "http://www.jemsdatafactory.com/"
+    }, {
+      "logoUrl" : "../images/partners/logo-d2si.png",
+      "name" : "D2SI",
+      "url" : "https://www.d2si.io/"
+    }],
+    "title" : "Gold"
   } ],
   "schedule" : {
     "2016-09-09" : {
