@@ -112,7 +112,7 @@
         --iron-icon-fill-color: var(--hero-font-color);
       }
 
-      .buy-button {
+      .buy-button, .cfp-button {
         margin-top: 12px;
       }
 
@@ -157,6 +157,10 @@
         <a href="https://www.billetweb.fr/devfest-paris" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
           <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
+        </a>
+        <a href="http://bit.ly/cfpdevfestparis" target="_blank" rel="noopener noreferrer" ga-on="click"
+           ga-event-category="cfp button" ga-event-action="cfp_click">
+          <paper-button class="cfp-button" primary>Call for Paper</paper-button>
         </a>
       </paper-tabs>
 
