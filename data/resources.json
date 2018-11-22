@@ -64,6 +64,11 @@
           "name": "Call for Paper",
           "url": "http://bit.ly/cfpdevfestparis",
           "newTab": true
+        },
+        {
+          "name": "Code of Conduct",
+          "url": "/cod",
+          "newTab": false
         }
       ]
     }
