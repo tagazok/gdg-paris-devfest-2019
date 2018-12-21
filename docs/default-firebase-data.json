@@ -59,7 +59,7 @@
   "notifications" : {
     "config" : {
       "icon" : "",
-      "timezone" : "+03:00"
+      "timezone" : "+01:00"
     },
     "messages" : { },
     "subscribers" : { },
@@ -68,58 +68,30 @@
   },
   "partners" : [ {
     "logos" : [ {
-      "logoUrl" : "../images/logos/gdg-lviv.svg",
-      "name" : "GDG Lviv",
-      "url" : "https://plus.google.com/102444623953913144164"
-    } ],
-    "title" : "Template Creator"
+      "logoUrl" : "../images/partners/logo-sfeir.png",
+      "name" : "SFEIR",
+      "url" : "https://www.sfeir.com"
+    }, {
+      "logoUrl" : "../images/partners/logo-cirruseo.png",
+      "name" : "Cirruseo",
+      "url" : "https://www.cirruseo.com"
+    }, {
+      "logoUrl" : "../images/partners/logo-revevol.png",
+      "name" : "Revevol",
+      "url" : "https://www.revevol.com"
+    }],
+    "title" : "Platinium"
   }, {
     "logos" : [ {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
+      "logoUrl" : "../images/partners/logo-jems.png",
+      "name" : "JEMS Datafactory",
+      "url" : "http://www.jemsdatafactory.com/"
     }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    }, {
-      "logoUrl" : "../images/logos/gdg-x.svg",
-      "name" : "GDG[x]",
-      "url" : "https://github.com/gdg-x"
-    }, {
-      "logoUrl" : "../images/logos/google.svg",
-      "name" : "Google",
-      "url" : "https://www.google.com.ua/intl/en/about/"
-    } ],
-    "title" : "General Partner"
+      "logoUrl" : "../images/partners/logo-d2si.png",
+      "name" : "D2SI",
+      "url" : "https://www.d2si.io/"
+    }],
+    "title" : "Gold"
   } ],
   "schedule" : {
     "2016-09-09" : {
@@ -1437,235 +1409,135 @@
   },
   "team" : [ {
     "members" : [ {
-      "name" : "Oleh Zasadnyy",
-      "photo" : "/images/people/oleh_zasadnyy.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+      "name" : "Alain Regnier",
+      "photo" : "/images/people/alain_regnier.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-paris-2019.appspot.com/o/images%2Fteam%2Falain_regnier.png?alt=media&token=396719e5-4e8f-4a4e-b177-57ed3af75ff9",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+OlehZasadnyy",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/oleh.zasadnyy",
-        "name" : "Facebook"
-      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/ozasadnyy",
+        "link" : "https://twitter.com/altolabs",
+        "name" : "Twitter"
+      }],
+      "title" : ""
+    }, {
+      "name" : "Benjamin LACROIX",
+      "photo" : "/images/people/benjamin_lacroix.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-paris-2019.appspot.com/o/images%2Fteam%2Fbenjamin_lacroix.jpeg?alt=media&token=5fefadfa-186c-4c72-8dca-e44710c1f35a",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/benjlacroix",
+        "name" : "Twitter"
+      }],
+      "title" : ""
+    }, {
+      "name" : "Cyril Balit",
+      "photo" : "/images/people/cyril_balit.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-paris-2019.appspot.com/o/images%2Fteam%2Fcyril_balit.jpeg?alt=media&token=58b19414-821d-413e-a61d-2b34c284c8b0",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/cablit",
+        "name" : "Twitter"
+      }],
+      "title" : ""
+    }, {
+      "name" : "Leena Kasundra",
+      "photo" : "/images/people/leena_kasundra.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-paris-2019.appspot.com/o/images%2Fteam%2Fleena_kasundra.jpg?alt=media&token=68ccded9-e39a-4ace-9885-1e9b759a9ac4",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/LeenaK26",
+        "name" : "Twitter"
+      }],
+      "title" : ""
+    }, {
+      "name" : "Paul Chabot",
+      "photo" : "/images/people/paul_chabot.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-paris-2019.appspot.com/o/images%2Fteam%2Fpaul_chabot.jpg?alt=media&token=62a2e171-d669-4940-9108-131deddd8439",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/paulch4bot",
         "name" : "Twitter"
       }, {
-        "icon" : "website",
-        "link" : "http://o.zasadnyy.com/",
-        "name" : "Blog"
-      } ],
-      "title" : "Website and sponsors"
-    }, {
-      "name" : "Sofiya Huts",
-      "photo" : "/images/people/sofiya_huts.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fsofiya_huts.jpg?alt=media&token=a911eafb-f709-4af7-b1cb-58a6604b70d1",
-      "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+SofiaHuts",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/sophie.huts.7",
-        "name" : "Facebook"
-      } ],
-      "title" : "Social and media"
-    }, {
-      "name" : "Vitaliy Zasadnyy",
-      "photo" : "/images/people/vitaliy_zasadnyy.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
-      "socials" : [ {
         "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/zasadnyy",
+        "link" : "https://www.linkedin.com/in/pchabot",
         "name" : "Linkedin"
-      }, {
+      }],
+      "title" : ""
+    }, {
+      "name" : "Pritesh Bheemanee",
+      "photo" : "/images/people/pritesh_heemanee.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-paris-2019.appspot.com/o/images%2Fteam%2Fpritesh_heemanee.jpg?alt=media&token=f6c557c8-e87d-4d81-a001-44448ac65e81",
+      "socials" : [ {
         "icon" : "twitter",
-        "link" : "https://twitter.com/zasadnyy",
+        "link" : "https://twitter.com/PriteshP23",
         "name" : "Twitter"
       }, {
-        "icon" : "website",
-        "link" : "http://v.zasadnyy.com/",
-        "name" : "Blog"
-      } ],
-      "title" : "Speakers"
+        "icon" : "linkedin",
+        "link" : "https://www.linkedin.com/in/priteshbheemanee",
+        "name" : "Linkedin"
+      }],
+      "title" : ""
     }, {
-      "name" : "Marta Maxymiak",
-      "photo" : "/images/people/marta_maxymiak.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fmarta_maxymiak.jpg?alt=media&token=6532f039-7f86-4304-8558-dbfbb3ae8d68",
+      "name" : "Thibault Pouget",
+      "photo" : "/images/people/thibault_pouget.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-paris-2019.appspot.com/o/images%2Fteam%2Fthibault_pouget.jpeg?alt=media&token=66c1eaaa-dc3a-4cae-b124-fdce83e567ac",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/104036874811391520583",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/marta.maxymiak",
-        "name" : "Facebook"
-      } ],
-      "title" : "Party and happiness"
-    }, {
-      "name" : "Ostap Andrusiv",
-      "photo" : "/images/people/ostap_andrusiv.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ostap_andrusiv.jpg",
-      "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://google.com/+OstapAndrusiv",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/ostap.andrusiv",
-        "name" : "Facebook"
-      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/p1f",
+        "link" : "https://twitter.com/thibaultpouget",
         "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "http://andrusiv.com/",
-        "name" : "Blog"
-      } ],
-      "title" : "Sponsors"
+      }],
+      "title" : ""
     }, {
-      "name" : "Vasylyna Mytsak",
-      "photo" : "/images/people/vasylyna_mytsak.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/vasylyna_mytsak.jpg",
+      "name" : "Tiffany Souterre",
+      "photo" : "/images/people/tiffany_souterre.jpg",
+      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/devfest-paris-2019.appspot.com/o/images%2Fteam%2Ftiffany_souterre.jpg?alt=media&token=107d4ded-e0d9-4d04-8a30-d387af2f760f",
       "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+ВасилинаМицак",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/vasylyna.mytsak",
-        "name" : "Facebook"
-      } ],
-      "title" : "Party and happiness"
-    }, {
-      "name" : "Volodya Karpliuk",
-      "photo" : "/images/people/volodya_karpliuk.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvolodya_karpliuk.jpg?alt=media&token=aa08d9c9-c42a-435f-8672-c3a004e3aa08",
-      "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+VolodyaKarpliuk23",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/volodya.karpluk",
-        "name" : "Facebook"
-      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/keyv23",
+        "link" : "https://twitter.com/TiffanySouterre",
         "name" : "Twitter"
-      } ],
-      "title" : "Speakers"
-    }, {
-      "name" : "Diana Pinchuk",
-      "photo" : "/images/people/diana_pinchuk.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fdiana_pinchuk.jpg?alt=media&token=189d67d1-004f-4a3c-9e0c-13bc992bbaf7",
-      "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+DianaPinchuk",
-        "name" : "Google+"
-      }, {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/diana.pinchuk.9",
-        "name" : "Facebook"
-      } ],
-      "title" : "Social and media"
+      }],
+      "title" : ""
     } ],
     "title" : "Core Team"
-  }, {
-    "members" : [ {
-      "name" : "Ihor Dvoretskyi",
-      "photo" : "/images/people/ihor_dvoretskyi.jpg",
-      "photoUrl" : "",
-      "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/idvoretskyi",
-        "name" : "Facebook"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/idvoretskyi",
-        "name" : "Twitter"
-      } ],
-      "title" : "Cloud stream"
-    }, {
-      "name" : "Dmytro Danylyk",
-      "photo" : "/images/people/dmytro_danylyk.jpg",
-      "photoUrl" : "",
-      "socials" : [ {
-        "icon" : "gplus",
-        "link" : "https://plus.google.com/+DmytroDanylyk",
-        "name" : "Google+"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/dmytrodanylyk",
-        "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "http://www.dmytrodanylyk.com/#/about",
-        "name" : "Website"
-      } ],
-      "title" : "Android Stream"
-    } ],
-    "title" : "Program Committee"
   } ],
   "tickets" : [ {
     "available" : true,
-    "currency" : "$",
-    "ends" : "Oct 13",
-    "info" : "Requires valid student/lecturer ID",
-    "name" : "EDU",
-    "price" : 80,
+    "currency" : "€",
+    "ends" : "Feb 8",
+    "inDemand":true,
+    "info" : "Only first 100 tickets",
+    "name" : "Very Early Bird",
+    "order" :0,
+    "price" : 30,
+    "regular":true,
     "soldOut" : false,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : false,
-    "currency" : "$",
-    "ends" : "Mar 31",
-    "inDemand" : false,
-    "info" : "Or first 50 tickets",
-    "name" : "Pre Early Bird",
-    "price" : 100,
-    "regular" : true,
-    "soldOut" : true,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
+    "starts" : "Oct 27",
+    "url" : "https://www.billetweb.fr/devfest-paris"
   }, {
     "available" : true,
-    "currency" : "$",
-    "ends" : "Jun 30",
-    "inDemand" : true,
-    "info" : "Or first 200 tickets",
+    "currency" : "€",
+    "ends" : "Feb 8",
+    "inDemand" : false,
     "name" : "Early Bird",
-    "price" : 120,
+    "order" :1,
+    "price" : 60,
     "regular" : true,
     "soldOut" : false,
-    "starts" : "Feb 7",
-    "url" : "https://2event.com/events/1027108"
-  }, {
-    "available" : false,
-    "currency" : "$",
-    "ends" : "Sep 30",
-    "inDemand" : false,
-    "info" : "Or first 350 tickets",
-    "name" : "Regular",
-    "price" : 160,
-    "primary" : true,
-    "regular" : true,
-    "soldOut" : false,
-    "starts" : "Jul 1",
-    "url" : "https://2event.com/events/1027108"
+    "starts" : "Oct 27",
+    "url" : "https://www.billetweb.fr/devfest-paris"
   }, {
     "available" : true,
-    "currency" : "$",
-    "info" : "Money worth nothing when you love it",
-    "name" : "I Love DFUA",
-    "price" : 280,
+    "currency" : "€",
+    "ends" : "Feb 8",
+    "inDemand" : false,
+    "name" : "Regular",
+    "order" :2,
+    "price" : 90,
+    "regular" : true,
+    "primary":true,
     "soldOut" : false,
-    "url" : "https://2event.com/events/1027108"
-  } ],
+    "starts" : "Oct 27",
+    "url" : "https://www.billetweb.fr/devfest-paris"
+  }],
   "triggers" : {
     "images" : false
   },

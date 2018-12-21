@@ -13,33 +13,91 @@
     <style is="custom-style" include="shared-styles flex flex-alignment"></style>
 
     <style>
-
       :host {
-        display: block;
+        display:block;
+        --support-height:60px;
+        --platinum-height:calc(var(--support-height) * 3);
+        --gold-height:calc(var(--support-height) * 2);
       }
 
       .block-title {
-        margin: 24px 0 8px;
+        margin:24px 0 8px;
       }
 
       .logos-wrapper {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-        grid-gap: 8px;
+        display:flex;flex-wrap:wrap;justify-content:center;margin:1.5rem 0;
       }
 
       .logo-item {
-        padding: 24px;
+        padding:24px;
       }
 
       .logo-img {
-        height: 60px;
-        width: 100%;
+        height:var(--support-height);width:100%;
       }
 
       .cta-button {
-        margin-top: 24px;
-        color: var(--default-primary-color);
+        margin-top:24px;color:var(--default-primary-color);
+      }
+
+      .partner-Platinium .logo-img {
+        height:var(--platinum-height);
+      }
+
+      .partner-Platinium .block-title {
+        font-size:1.5em;color:#8b7683;
+      }
+
+      .partner-Platinium .logo-item {
+        flex-basis:320px;margin:16px;grid-gap:16px;
+      }
+
+      .partner-Gold .logo-img {
+        height:var(--gold-height);
+      }
+
+      .partner-Gold .block-title {
+        font-size:1.33em;color:#b7935b;
+      }
+
+      .partner-Gold .logo-item {
+        flex-basis:200px;margin:12px;
+      }
+
+      .partner .block-title {
+        font-size:1.2em;color:#73737a;
+      }
+
+      .partner .logo-item {
+        flex-basis:160px;margin:8px;
+      }
+
+      .fancy {
+        line-height:0.5;text-align:center;
+      }
+
+      .fancy span {
+        display:inline-block;position:relative;
+      }
+
+      .fancy span:before, .fancy span:after {
+        top:40%;content:"";position:absolute;height:5px;width:140%;max-width:25vw;
+      }
+
+      .fancy span:before {
+        right:100%;margin-right:15px;
+      }
+
+      .fancy span:after {
+        left:100%;margin-left:15px;
+      }
+
+      .partner-Platinium .fancy span:before, .partner-Platinium .fancy span:after {
+        border-bottom:1px solid currentColor;border-top:1px solid currentColor;
+      }
+
+      .partner-Gold .fancy span:before, .partner-Gold .fancy span:after {
+        top:20%;border-bottom:1px solid currentColor;
       }
 
       @media (min-width: 640px) {
@@ -53,41 +111,30 @@
           grid-template-columns: repeat(5, 1fr);
         }
       }
-
     </style>
 
     <div class="container">
       <h1 class="container-title">{$ partnersBlock.title $}</h1>
 
       <template is="dom-repeat" items="[[partners]]" as="block">
-          <h4 class="block-title">[[block.title]]</h4>
+        <div class$="partner-[[block.title]]">
+          <h4 class="block-title fancy"><span>[[block.title]]</span></h4>
           <div class="logos-wrapper">
             <template is="dom-repeat" items="[[block.items]]" as="logo">
-              <a
-                class="logo-item card"
-                href$="[[logo.url]]"
-                title$="[[logo.name]]"
-                target="_blank"
-                rel="noopener noreferrer"
-                layout horizontal center-center
-              >
-                <plastic-image
-                  class="logo-img"
-                  srcset="[[logo.logoUrl]]"
-                  sizing="contain"
-                  lazy-load
-                  preload fade
-                ></plastic-image>
+              <a class="logo-item card" href$="[[logo.url]]" title$="[[logo.name]]" target="_blank" rel="noopener noreferrer" layout horizontal
+                center-center>
+                <plastic-image class="logo-img" srcset="[[logo.logoUrl]]" sizing="contain" lazy-load preload fade></plastic-image>
               </a>
             </template>
           </div>
+        </div>
       </template>
-
-      <paper-button class="cta-button animated icon-right"
-        on-tap="_addPotentialPartner">
-        <span>{$ partnersBlock.button $}</span>
-        <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
-      </paper-button>
+      <a href="https://drive.google.com/file/d/1_BDZNxKl17R6T3-6l2_qnxl6aXajJlty/view" target="_blank" rel="noopener noreferrer">
+        <paper-button class="cta-button animated icon-right" >
+          <span>{$ partnersBlock.button $}</span>
+          <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
+        </paper-button>
+      </a>
     </div>
 
   </template>

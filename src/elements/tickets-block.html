@@ -123,7 +123,6 @@
         }
       }
     </style>
-
     <div class="tickets-wrapper container">
       <h1 class="container-title">{$ ticketsBlock.title $}</h1>
       <content-loader
@@ -234,7 +233,7 @@
         const maxPrice = this.tickets.find((ticket) => ticket.primary).price;
         if (!ticket.regular || ticket.primary || ticket.soldOut || !maxPrice) return;
         const discount = 100 - parseInt(ticket.price) * 100 / parseInt(maxPrice);
-        return ((discount) => `{$ ticketsBlock.save $}`)(discount);
+        return ((discount) => `{$ ticketsBlock.save $}`)(Math.round(discount * 10) / 10);
       }
 
       _onTicketTap(e) {
