@@ -140,6 +140,7 @@
       featured$="[[isFeatured]]"
       layout vertical
       relative
+      style$="background-color: [[getVariableColor(session.mainTag)]]"
     >
       <iron-icon
         class="session-icon"
@@ -174,7 +175,7 @@
           </div>
           <div hidden$="[[!session.tags.length]]">
             <template is="dom-repeat" items="[[session.tags]]" as="tag">
-              <span class="tag" style$="color: [[getVariableColor(tag)]]">[[tag]]</span>
+              <span class="tag">[[tag]]</span>
             </template>
           </div>
         </div>
@@ -218,10 +219,6 @@
           user: Object,
           session: Object,
           featuredSessions: Object,
-          sessionColor: {
-            type: String,
-            computed: 'getVariableColor(session.mainTag)',
-          },
           isFeatured: {
             type: String,
             computed: '_isFeatured(featuredSessions, session.id)',

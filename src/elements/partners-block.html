@@ -18,6 +18,8 @@
         --support-height:60px;
         --platinum-height:calc(var(--support-height) * 3);
         --gold-height:calc(var(--support-height) * 2);
+        --silver-height:calc(var(--support-height) * 1.5);
+        --partenaires-height: calc(var(--support-height) * 1.5);
       }
 
       .block-title {
@@ -64,6 +66,30 @@
         flex-basis:200px;margin:12px;
       }
 
+      .partner-Silver .logo-img {
+        height:var(--silver-height);
+      }
+
+      .partner-Silver .block-title {
+        font-size:1.33em;color:#c0c0c0;
+      }
+
+      .partner-Silver .logo-item {
+        flex-basis:200px;margin:12px;
+      }
+
+      .partner-Partenaires .logo-img {
+        height:var(--partenaires-height);
+      }
+
+      .partner-Partenaires .block-title {
+        font-size:1.33em;
+      }
+
+      .partner-Partenaires .logo-item {
+        flex-basis:200px;margin:12px;
+      }
+
       .partner .block-title {
         font-size:1.2em;color:#73737a;
       }
@@ -92,12 +118,28 @@
         left:100%;margin-left:15px;
       }
 
-      .partner-Platinium .fancy span:before, .partner-Platinium .fancy span:after {
-        border-bottom:1px solid currentColor;border-top:1px solid currentColor;
+      .partner-Platinium .fancy span:before,
+      .partner-Platinium .fancy span:after {
+        border-bottom:1px solid currentColor;
+        border-top:1px solid currentColor;
       }
 
-      .partner-Gold .fancy span:before, .partner-Gold .fancy span:after {
-        top:20%;border-bottom:1px solid currentColor;
+      .partner-Gold .fancy span:before,
+      .partner-Gold .fancy span:after {
+        top:20%;
+        border-bottom:1px solid currentColor;
+      }
+
+      .partner-Silver .fancy span:before,
+      .partner-Silver .fancy span:after {
+        top:20%;
+        border-bottom:1px solid currentColor;
+      }
+
+      .partner-Partenaires .fancy span:before,
+      .partner-Partenaires .fancy span:after {
+        top:20%;
+        border-bottom:1px solid currentColor;
       }
 
       @media (min-width: 640px) {
@@ -129,12 +171,15 @@
           </div>
         </div>
       </template>
+
+      <!--
       <a href="https://drive.google.com/file/d/1_BDZNxKl17R6T3-6l2_qnxl6aXajJlty/view" target="_blank" rel="noopener noreferrer">
         <paper-button class="cta-button animated icon-right" >
           <span>{$ partnersBlock.button $}</span>
           <iron-icon icon="hoverboard:arrow-right-circle"></iron-icon>
         </paper-button>
       </a>
+      -->
     </div>
 
   </template>

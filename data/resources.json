@@ -1,5 +1,5 @@
 {
-  "title": "GDG DevFest Season 2019",
+  "title": "DevFest Paris 2019",
   "description": "Be a hero. Start coding!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
@@ -56,16 +56,6 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Partnership Proposition",
-          "url": "https://drive.google.com/open?id=1_BDZNxKl17R6T3-6l2_qnxl6aXajJlty",
-          "newTab": true
-        },
-        {
-          "name": "Call for Paper",
-          "url": "http://bit.ly/cfpdevfestparis",
-          "newTab": true
-        },
-        {
           "name": "Code of Conduct",
           "url": "/cod",
           "newTab": false
@@ -95,11 +85,11 @@
       },
       "sessions": {
         "label": "Sessions",
-        "number": "20"
+        "number": "24"
       },
       "tracks": {
         "label": "Tracks",
-        "number": "3"
+        "number": "4"
       }
     }
   },

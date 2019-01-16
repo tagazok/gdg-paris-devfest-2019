@@ -2,26 +2,35 @@
   "organizer": {
     "name": "GDG Paris",
     "twitter": "GDGParis",
-    "blog": "https://medium.com/gdg-lviv",
     "url": "https://www.meetup.com/fr-FR/gdg-paris/"
   },
   "startDate": "2019-02-08T09:00:00+03:00",
   "endDate": "2019-02-08T19:00:00+03:00",
   "webapp": {
-    "shortName": "DevFest",
+    "shortName": "DevFest Paris 2019",
     "themeColor": "#673AB7",
     "backgroundColor": "#673AB7"
   },
   "dateFormat": {
     "locale": "en-US"
   },
-  "hashtag": "DevFest19",
-  "disabledSchedule": false,
+  "hashtag": "DevFestParis19",
+  "disabledSchedule": true,
   "navigation": [
     {
       "route": "home",
       "permalink": "/",
       "label": "Home"
+    },
+    {
+      "route": "speakers",
+      "permalink": "/speakers/",
+      "label": "Speakers"
+    },
+    {
+      "route": "schedule",
+      "permalink": "/schedule/",
+      "label": "Schedule"
     },
     {
       "route": "team",
@@ -188,17 +197,17 @@
     "schedule": {
       "itemsCount": 2
     },
-    "blog": {
-      "itemsCount": 3
-    },
     "speakers": {
       "itemsCount": 4
     },
-    "previousSpeakers": {
-      "itemsCount": 6
-    },
     "tickets": {
       "itemsCount": 3
+    },
+    "previousSpeakers": {
+      "itemsCount": 0
+    },
+    "blog": {
+      "itemsCount": 0
     }
   }
 }
