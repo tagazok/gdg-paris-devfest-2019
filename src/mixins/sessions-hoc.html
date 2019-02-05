@@ -44,5 +44,13 @@
 
       return null;
     }
+
+    getSessionsLengthBySpeaker(speakerId) {
+      if (this.sessionsBySpeaker) {
+        return this.getSessionsBySpeaker(speakerId).length;
+      }
+
+      return null;
+    }
   };
 </script>

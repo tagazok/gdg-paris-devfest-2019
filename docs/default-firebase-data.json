@@ -64,6 +64,11 @@
           "logoUrl": "../images/partners/logo-sii.png",
           "name": "Sii",
           "url": "http://www.groupe-sii.com/fr"
+        },
+        {
+          "logoUrl": "../images/partners/logo-microsoft.png",
+          "name": "Mirosoft",
+          "url": "https://developer.microsoft.com"
         }
       ]
     },
@@ -222,13 +227,13 @@
               ]
             },
             {
-              "extend": 4,
+              "extend": 3,
               "items": [
                 120
               ]
             },
             {
-              "extend": 4,
+              "extend": 3,
               "items": [
                 121
               ]
@@ -248,7 +253,7 @@
         },
         {
           "startTime": "14:05",
-          "endTime": "14:30",
+          "endTime": "14:20",
           "sessions": [
             {
               "items": [
@@ -300,7 +305,7 @@
             },
             {
               "items": [
-                119
+                125
               ]
             },
             {
@@ -339,7 +344,7 @@
             },
             {
               "items": [
-                140
+                119
               ]
             }
           ]
@@ -357,7 +362,7 @@
         },
         {
           "startTime": "17:30",
-          "endTime": "18:20",
+          "endTime": "18:10",
           "sessions": [
             {
               "items": [
@@ -390,7 +395,7 @@
   },
   "sessions": {
     "101": {
-      "title": "WEB COMPONENTS EN 2019, ON EN EST OÙ ?",
+      "title": "Web Components en 2019, on en est où ?",
       "complexity": "Beginner",
       "description": "Depuis quelques années on a entendu parler des web components, ce beau discours d'un développement web basé enfin sur une vraie architecture en composants, de la réutilisation, de la modularisation, de l'encapsulation... <br>Mais force est de constater que aujourd'hui, en fin 2018, cette vision a du mal à se concrétiser, les frameworks comme React, Angular ou Vue ont encore la part belle des feux des projecteurs et le discours des web components sont presque inaudibles. <br>Et pourtant plein de choses se sont passées cette dernière année, et les web components sont aujourd'hui sur plein de sites et des applications que nous utilisons tous les jours, sans qu'on les remarque. La révolution est bien en marche, mais elle est plutôt silencieuse...<br>Dans ce talk on va commencer par faire un tour de table sur les différentes bibliothèques de web components disponibles aujourd'hui, leurs caractéristiques, leur philosophie et leurs use cases. <br>Ensuite on va se centrer sur le futur de mon projet favorite : Polymer. La v3 est sortie il y a quelques mois, et en plus de mettre enfin l'outillage en phase avec les standards du marché (npm...) elle nous annonce un beau futur avec des composants plus légers, plus performants, plus proches de la plateforme et avec un rendering basé sur vrai concurrent de JSX mais qui s'intègre 100% sur les standards du web : lit-html. On parlera donc de LitElement, on fera des demos, on verra du code...<br>Pour finir on va voir comment il est simple aujourd'hui d'intégrer les web components sur n'importe quel project web, du legacy avec jQuery à la dernière app avec React, du projet en Angular à l'application en Vue JS. Des composants interopérables plug and play pour vos applications qui montrent encore une fois l'intérêt de cette révolution des web components.",
       "language": "French",
@@ -404,7 +409,7 @@
       "mainTag": "Web"
     },
     "102": {
-      "title": "BEYOND SMART SPEAKERS: GET YOUR GOOGLE ASSISTANT APPS READY FOR SMART DISPLAYS",
+      "title": "Beyond smart speakers: get your Google Assistant apps ready for smart displays",
       "complexity": "Intermediate",
       "description": "In an ever-expanding world of devices for the Google Assistant (smart speaker, smartphone, tablet, smartwatch, earphones, smart TV, car, smart display, and the list goes on and on), developers face today completely new challenges in creating effective and consistent experiences for users. In this talk, we’ll take a closer look at our user’s daily journey as they’re moving from one device to another and cover some key considerations for designing Actions on Google across surfaces - with useful tips to understand when and how to leverage visuals alongside voice interactions, to create rich, delightful conversational experiences for smart displays and more.<br>",
       "language": "English",
@@ -418,9 +423,9 @@
       "mainTag": "Artificial Intelligence"
     },
     "103": {
-      "title": "MASTER YOUR LAYOUTS (CODELAB)",
+      "title": "Master your layouts",
       "complexity": "Intermediate",
-      "description": "Have you ever thrown (or dreamed of doing) a laptop through the window when you were vertically aligning a <div> or creating a common sidebar / content layout?<br>Attend our Master your Layout codelab and you will be able to remove the bubble wrap around your beautiful machine.<br>From floats to grids, passing by flexbox, discover and master all that CSS can offer you to create a perfect layout.<br>You will have fun creating your next layouts and you will do it leaving the window open without fear of flying macbook!",
+      "description": "N'avez-vous jamais lancé (ou rêvé de le faire) votre ordinateur par la fenêtre alors que vous étiez en train d'aligner<br>verticalement une DIV ou de créer une page avec un menu sur le côté ?<br><br>Assistez à notre atelier et vous pourrez sereinement retirer le papier bulle dans lequel vous avez emballé votre précieuse machine.<br><br>Parcourons et maîtrisons ensemble tout ce que le CSS a à nous offrir pour créer nos pages.<br><br>Vous prendrez alors du plaisir à créer vos prochains sites et vous le ferez fenêtre ouverte, sans craindre de voir voler votre ordinateur !",
       "language": "French",
       "presentation": "",
       "speakers": [
@@ -430,7 +435,7 @@
       "mainTag": "UX/UI"
     },
     "104": {
-      "title": "TYPESCRIPT: WHY? WHEN? HOW?",
+      "title": "TypeScript: Why? When? How?",
       "complexity": "Beginner",
       "description": "Actuellement en plein essor, TypeScript a grandement évolué depuis ses début. Il est aujourd'hui un élément clé, autant pour les développeurs Frontend que Backend avec Node.js.<br>Vous ne l'utilisez pas encore? Alors cette session est faite pour vous! Venez découvrir son fonctionnement et comment le mettre en œuvre dès aujourd'hui dans vos projets.",
       "language": "French",
@@ -445,7 +450,7 @@
       "mainTag": "Languages"
     },
     "105": {
-      "title": "CRÉEZ VOTRE PREMIÈRE PWA EN PUR HTML/JS",
+      "title": "Créez votre première PWA en pur HTML/JS",
       "complexity": "Intermediate",
       "description": "Le terme Progressive Web App (PWA) n'a sans doute pas échappé à toute personne qui suit l'actualité web. À quoi correspond ce terme et qu'apporte t-il à une application web ? Ce workshop vous permettra de mieux comprendre les PWA avec un peu de pratique \uD83D\uDCAA.<br>Nous allons ensemble transformer une application web classique en une PWA. Cela permettra à l'utilisateur de disposer d'un mode offline basique pour consulter l'application et de pouvoir l'ajouter en raccourci sur l'écran d'accueil de son smartphone.<br><br>PRÉREQUIS<br><br>Connaître les bases du HTML, CSS et JavaScript.<br>Un poste de travail muni d'un éditeur de code tel que Visual Studio Code<br>Google Chrome (les PWA sont supportées par la plupart des navigateurs mais pour faciliter l'organisation, nous utiliserons tous le même navigateur pendant le développement)<br>Un serveur web local (si vous n'en avez pas, essayez npmjs.com/serve et la commande cd app && serve)<br><br>ETAPES DU WORKSHOP<br><br><ul><li>Préparation</li><li>Ajout d'un manifeste d'application web</li><li>Installation et activation d'un Service Worker</li><li>Precaching des assets statiques pour un mode offline basique</li><li>Stratégie de Cache/Update/Refresh pour les requêtes GET de l'API</li><li>Background sync et exemple de notification push",
       "language": "French",
@@ -459,7 +464,7 @@
       "mainTag": "Web"
     },
     "106": {
-      "title": "WEBASSEMBLY : LE NAVIGATEUR EST MAINTENANT UNE VRAIE MACHINE VIRTUELLE",
+      "title": "WebAssembly : le navigateur est maintenant une vraie machine virtuelle",
       "complexity": "Intermediate",
       "description": "WebAssembly est une nouvelle machine virtuelle dans le navigateur. Elle ne fait pas de transpilation vers JavaScript comme l'ont tenté ses prédécesseurs ; elle introduit un nouveau format, proche d'un assembleur, exécuté dans une machine virtuelle au sein de votre browser. Le coup de génie ? Offrir un bridge entre les API JavaScript et les exécutables WebAssembly ! Les dernières optimisations des navigateurs permettent maintenant un échange ultrarapide entre le code JS de votre interface, et votre code métier WASM.<br>Partons d'un projet nécessitant un long temps de calcul, comme un modèle statistique. Nous développerons le core code en Rust, compilé vers WASM via LLVM, et nous afficherons l'ensemble des résultats dans une UI propulsée par JavaScript. Pas besoin de savoir comment tout ça fonctionne, c'est ce que nous allons découvrir ensemble !<br>Ce talk appartient à une nouvelle série sous le hashtag #StartFromNowhere : démarrons des savoir-faire des développeur·euse·s front (JS / HTML / CSS), et plongeons dans la mise en application d'une nouvelle technologie / framework dont beaucoup parlent sans pour autant y avoir déjà touché. En 45', vous obtiendrez tous les savoirs nécessaires à la poursuite de votre apprentissage.<br>",
       "language": "French",
@@ -473,7 +478,7 @@
       "mainTag": "Languages"
     },
     "107": {
-      "title": "GCP FOR DATA SCIENTISTS",
+      "title": "GCP for Data Scientists",
       "complexity": "Intermediate",
       "description": "Depuis son arrivée, GCP a démocratisé la conception et la mise en place de services basés sur l'IA sans avoir besoin en pré-requis de connaissances spécifiques en IA, Google Cloud AutoML étant le projet phare de cette tendance. Toutefois GCP met à disposition des services intéressants pour un Data Scientist tels que ML Engine pour entrainer et déployer ses propres modèles. Comment un Data Scientist peut-il s'orienter dans ce monde qui n'est pas le sien pour exploiter tout le potentiel de GCP ?",
       "language": "French",
@@ -487,7 +492,7 @@
       "mainTag": "Cloud"
     },
     "108": {
-      "title": "LES NOUVEAUTÉS D'ANGULAR EN 2019",
+      "title": "Les nouveautés d'Angular en 2019",
       "complexity": "Intermediate",
       "description": "2019 est une année existante pour la commuauté Angular. Dans cette session, nous découvrirons la roadmap de certaines fonctionnalités à venir. Nous parlerons du nouveau système de build, des CDK, le nouveau moteur de rendu et de nombreuses autres fonctionnalités intéressantes. Nous verrons également comment il serait possible de faire cohabiter Angular avec les autres technologies front-end. Êtes-vous prêt ?<br>",
       "language": "French",
@@ -501,7 +506,7 @@
       "mainTag": "Web"
     },
     "109": {
-      "title": "USING WEBGL AND PWA TO BUILD AN ADAPTIVE GAME FOR TOUCH, MOUSE AND VR DEVICES",
+      "title": "Using WebGL and PWA to build an adaptive game for touch, mouse and VR devices",
       "complexity": "Intermediate",
       "description": "We’ll see how to build a cross-platforms game using an adaptive gameplay. This will allow the same web app to be played on touch screens, using a mouse or pen on desktops, up to the ultimate immersive experience thanks to WebVR! By using PWA, it will run totally offline, can be pinned on your mobile home screen or even be pushed to the Microsoft Store. <br>We'll see how to build the 3D scene using glTF, create the loading screen using the latest CSS features, manage the gameplay and finally how to use a service worker in the best way possible in collaboration with IndexedDB. I'll share what I've learned while creating the game. Fun topic but serious learnings. <br>I'll demo the game on desktop, mobile and on a VR headset which provides a very cool gameplay via the VR controllers! :)",
       "language": "French",
@@ -515,7 +520,7 @@
       "mainTag": "Web"
     },
     "110": {
-      "title": "LES NOUVEAUTÉS \"SERVERLESS\" DE GOOGLE CLOUD",
+      "title": "Les nouveautés \"Serverless\" de Google Cloud",
       "complexity": "Beginner",
       "description": "Des millions de personnes échangent des selfies sur Snapchat ou jouent à Super Mario Run tous les jours. Savez-vous où ces applications tournent ? C'est le vénérable Google App Engine et l'infrastructure de Google Cloud qui permettent aux développeurs de se focaliser sur leur code et de laisser le soin de scaler l'application à Google. <br>Que vous déployiez des applications avec App Engine, ou des fonctions avec Cloud Functions, vous ne vous souciez plus de serveurs ou de clusters à provisionner et vous payez proportionnellement à l'utilisation, sans coûts fixes. <br>Dans cette session, découvrons ensemble ce qu'il y a sous le capot, et surtout les nouveautés \"serverless\" de Google au delà d'App Engine et Cloud Functions.",
       "language": "French",
@@ -529,7 +534,7 @@
       "mainTag": "Cloud"
     },
     "111": {
-      "title": "TENSORFLOW TOUJOURS PLUS HAUT",
+      "title": "Tensorflow toujours plus haut",
       "complexity": "",
       "description": "TensorFlow, malgré sa grande popularité, a souvent été perçu comme un framework relativement bas niveau pour le Deep Learning, et compliqué à appréhender et débogguer notamment avec son concept de graphe. Mais c'est maintenant de l'histoire ancienne grâce à ses récentes APIs haut niveau.<br>Nous allons parcourir ensemble ces APIs haut niveau que sont tf.data, tf.keras, les Estimators ainsi que le mode d'exécution impératif (eager mode), et vous verrez que vous ne pourrez plus vous en passer !",
       "language": "French",
@@ -543,7 +548,7 @@
       "mainTag": "Artificial Intelligence"
     },
     "112": {
-      "title": "CRÉER UN ARTWORKS FINDER AVEC L'API CLOUD VISION",
+      "title": "Créer un artworks finder avec l'API Cloud Vision",
       "complexity": "Intermediate",
       "description": "This talk is based on a project started a few months ago: <strong>Shadra</strong>. The idea was to give pen-and-paper RPG players and Dungeon masters a way to find the perfect artworks for their characters. People often use <strong>Pinterest</strong> boards for that, like this one: https://www.pinterest.fr/michelparpaillo/dd-premium-npcs/. It’s cool but it comes with several issues:<ul><li>A lot of the returned images are not relevant (photos, landscape, groups, etc)</li><li>Content is not well qualified (not well enough at least)</li><li>There are a lot of duplicates</li><li>Artists are almost never mentioned</li></ul><br>By using the <strong>Cloud Visions API</strong> I could:<ul><li>Extract relevant tags from uploaded artworks (WebEntities)</li><li>Make sure there’s only one character per artwork (FaceDetection)</li><li>Create thumbnails out of it (FaceDetection + Sharp)</li><li>From the size of the face guess the type of artwork: body or portrait (FaceDetection)</li><li>Make sure the artwork is safe for children… and work (SafeSearch)</li><li>Extract the dominant color to show it before the artwork is loaded (Colors detection)</li><li>Propose a better quality for the uploaded artwork (Matching images)</li><li>Suggest other artworks to upload (Similar images)</li><li>Help to find the artist by listing the pages using this artwork (Source pages)</li></ul><br>Shadra also uses <strong>Algolia</strong> to perform searches and <strong>Angular</strong> for the frontend.",
       "language": "French",
@@ -557,7 +562,7 @@
       "mainTag": "Cloud"
     },
     "113": {
-      "title": "AU PAYS DES GOPHERS (À PARTIR DE 3 ANS)",
+      "title": "Au pays des Gophers (à partir de 3 ans)",
       "complexity": "Beginner",
       "description": "Au pays des Gophers, les Goroutines gambadent librement, et s’échangent des bisous et des bonbons grâce aux channels.<br>Les méchants Locks sont tous deads (ou presque), et le Scheduler règne sur ce monde paisible qui ne connaît pas le nom des Processeurs.<br>La concurrence en Go expliquée à ma fille de 3 ans !<br>",
       "language": "French",
@@ -571,7 +576,7 @@
       "mainTag": "Languages"
     },
     "114": {
-      "title": "CORS, XSS, CSRF, SQL INJECTION #BACKTOTHEBASICS",
+      "title": "CORS, XSS, CSRF, SQL injection #BackToTheBasics",
       "complexity": "Beginner",
       "description": "Pas besoin d'être RSSI ou DevOpsSec pour se soucier de sécurité. Que l'on soit développeur back ou front, la sécurité est l'affaire de tous. Pourtant, on l'a confit souvent aveuglement à nos frameworks. Mais alors comment vérifier la sécurité de nos données et de nos utilisateurs. A travers quelques démos, nous allons voir les failles les plus basiques : CORS, XSS, CSRF et SQL injection<br>",
       "language": "French",
@@ -585,7 +590,7 @@
       "mainTag": "Discovery"
     },
     "115": {
-      "title": "DÉMYSTIFIONS LES CSS CUSTOM PROPERTIES",
+      "title": "Démystifions les CSS Custom Properties",
       "complexity": "Beginner",
       "description": "Les CSS Variables, de leur vrai nom : Custom Properties, sont désormais supportées par tous les navigateurs modernes. Et pourtant, elles restent sous-utilisées ! Venez découvrir les fonctionnalités offertes par cette nouvelle spécification, ses avantages, ses limites et ainsi vous convertir à l’utilisation massive des variables dans vos projets web !",
       "language": "French",
@@ -600,7 +605,7 @@
       "mainTag": "Web"
     },
     "116": {
-      "title": "DÉVELOPPEZ VOTRE PROCHAINE APPLICATION WEB AVEC FIREBASE",
+      "title": "Développez votre prochaine application Web avec Firebase",
       "complexity": "Beginner",
       "description": "L'offre Firebase proposée par Google est une galaxie. Et malheureusement nous n'aurons pas le temps de tout aborder. Nous allons principalement aborder les produits permettant des stocker des donneées (FireStore), pour gérer l'authentification, pour héberger vos SPA utilisant votre framework JavaScript de prédilection ou encore les Cloud Functions.<br>Si vous avez toujours eu envie de développer une nouvelle application Web, mans sans trop se soucier de la partie back ou encore de la base de données, Firebase peut être la réponse à vos besoins. <br>À la fin de ce codelab, vous serez dans la capacité de développer, déployer et utiliser votre application grâce à l'infrastructure de Google.",
       "language": "French",
@@ -615,7 +620,7 @@
       "mainTag": "Cloud"
     },
     "117": {
-      "title": "DEVOPS DANS UN CONTEXTE SERVERLESS, OPPORTUNITÉ OU UTOPIE?",
+      "title": "DevOps dans un contexte Serverless, opportunité ou utopie ?",
       "complexity": "Beginner",
       "description": "En adoptant les architectures serverless et microservices on a moins à ce soucier de l'infrastructure sous-jacentes mais est-ce qu'on ne perd pas au final le contrôle de ses opérations? En réalité, le passage au serverless est une opportunité de mettre en place une approche DevOps centrée sur l'utilisateur.<br>Entre les outils de versioning, de traffic splitting des fournisseurs de Cloud et la méthodologie SRE (Site Reliability Engineering) développée par Google cette session sera l'occasion de parler de SLO (Service Level Objective) et de budget d'erreur de manière concrète au travers d'une application de microservices serverless (fonctions, applis, conteneurs, ...) .",
       "language": "French",
@@ -629,7 +634,7 @@
       "mainTag": "DevOps"
     },
     "118": {
-      "title": "COMPUTER VISION: BRITISH CLAY",
+      "title": "Computer Vision: British Clay",
       "complexity": "Beginner",
       "description": "The artificial vision spectrum ranges from fully automated generic Image Content Analysis (just give a picture and get answers, no configuration needed!) to fine-tuned neural network frameworks.<br>In-between, AutoML techniques let you build high-accuracy prediction systems focused on your use case, discovering and learning the topology of your data of interest, without writing any line of code at all. For image classification, this typically involves providing hundreds of known photos to a platform to train a model, and then use this model to infer characteristics of new pictures. Supervised learning at its simplest: just show labeled samples, and you get a model.<br>I will demo several recent tools that help build a model from a collection of pictures and a list of labels, and compare the quality of the results. Each may have its own answer to this fundamental question: Is it easier to detect Wallace or to detect Gromit?",
       "language": "French",
@@ -643,7 +648,7 @@
       "mainTag": "Machine Learning"
     },
     "119": {
-      "title": "KUBEFLOW : DATA SCIENTIST READY ?",
+      "title": "Kubeflow : Data Scientist ready ?",
       "complexity": "Intermediate",
       "description": "Industrialiser de la Data Science est le nouveau sujet à la mode. Ajoutez à cela une pincée de Kubernetes et vous retrouvez une recette de buzzwords. Lors d'une précédente démonstration, je me suis rendu compte de la difficulté de comprendre tout cet écosystème pour un Data Scientist.<br>Google a depuis mis à disposition un série d'outil afin de permettre la scalabilité de projets de Deep Learning sous le nom de Kubeflow : contraction de Kubernetes et Tensorflow. Nous allons montrer, à travers une démo, l'utilisation de ces outils et essayer de répondre à une simple question : est-il Data Scientist ready ?",
       "language": "French",
@@ -657,7 +662,7 @@
       "mainTag": "DevOps"
     },
     "120": {
-      "title": "HANDS ON CLOUD FUNCTIONS",
+      "title": "Hands on Cloud Functions",
       "complexity": "Intermediate",
       "description": "Lors de ce hands-on, vous aller apprendre à utiliser les Cloud Functions de GCP tout en vous amusant. Vous formerez seul ou avec un autre participant une équipe qui représentera une société de livraison de colis par drone. Votre objectif : coder , déployer et améliorer une Cloud Function pour commander un drone virtuel afin de le déplacer pour récupérer puis livrer les colis et ainsi gagner des points. Le jeu évolue en fonction de votre avancement, il vous faudra adapter votre code pour gagner (et remporter un drone). Un dashboard diffuse en temps réel les colis et les déplaçements des drones ainsi que le classement des équipes engagés dans la partie. Attention : il faut venir avec son ordinateur et avoir un compte gmail pour participer.",
       "language": "French",
@@ -673,7 +678,7 @@
       "mainTag": "Cloud"
     },
     "121": {
-      "title": "DÉVELOPPEZ UNE APPLICATION DE RÉALITÉ AUGMENTÉE 100% WEB",
+      "title": "Développez une application de réalité augmentée 100% Web",
       "complexity": "Beginner",
       "description": "Et si on développait un menu de restaurant innovant ?<br>La réalité augmentée permet d'afficher des élements 3D au-dessus d'un flux vidéo live de la caméra de votre téléphone pour donner l'illusion que votre élement fait partie du monde réel.<br>Les usages ont explosé depuis l'arrivée en 2017 des frameworks ARKit et ARCore, et gràce à l'API WebXR les développeurs web vont eux-aussi pourvoir créer leur propre application AR.<br>Nous vous guiderons, au-cours de cet atelier, dans les différentes étapes de création de votre première application en réalité augmentée :<br><ul><li>comment utiliser l'API WebXR</li><li>comment trouver une surface en utilisant le hit testing</li><li>comment charger et afficher en synchronisation avec le flux vidéo de votre caméra votre modèle 3D</li><li>comment utiliser tout cela pour donner le choix à un futur client d'un restaurant de prévisualiser son plat en réalité augmentée</li></ul>",
       "language": "French",
@@ -687,7 +692,7 @@
       "mainTag": "Web"
     },
     "122": {
-      "title": "DÉVELOPPEZ UNE APPLICATION DE RÉALITÉ AUGMENTÉE 100% WEB",
+      "title": "Développez une application de réalité augmentée 100% Web",
       "complexity": "Beginner",
       "description": "Et si on développait un menu de restaurant innovant ?<br>La réalité augmentée permet d'afficher des élements 3D au-dessus d'un flux vidéo live de la caméra de votre téléphone pour donner l'illusion que votre élement fait partie du monde réel.<br>Les usages ont explosé depuis l'arrivée en 2017 des frameworks ARKit et ARCore, et gràce à l'API WebXR les développeurs web vont eux-aussi pourvoir créer leur propre application AR.<br>Nous vous guiderons, au-cours de cet atelier, dans les différentes étapes de création de votre première application en réalité augmentée :<br><ul><li>comment utiliser l'API WebXR</li><li>comment trouver une surface en utilisant le hit testing</li><li>comment charger et afficher en synchronisation avec le flux vidéo de votre caméra votre modèle 3D</li><li>comment utiliser tout cela pour donner le choix à un futur client d'un restaurant de prévisualiser son plat en réalité augmentée</li></ul>",
       "language": "French",
@@ -701,7 +706,7 @@
       "mainTag": "Web"
     },
     "123": {
-      "title": "COMMENT KUBERNETES VA CHANGER VOTRE FAÇON DE CODER",
+      "title": "Comment Kubernetes va changer votre façon de coder",
       "complexity": "Intermediate",
       "description": "<em>Kubernetes</em> est sans doute LA solution d'infrastructure de 2018.<br>Prévisible, ce succès n'a pas que des impacts sur les ops, mais aussi (et bien plus même) sur les développeurs.<br>Nous reviendrons brièvement sur <em>kubernetes</em> et ses concepts.<br>Mais surtout sur ce que peut changer <em>kubernetes</em> dans les méthodes de développement&nbsp;:<ul><li>microservices</li><li>single tenant</li><li>test en production</li><li>asynchronisme</li><li>clustering</li><li>auditabilité</li><li>…</li></ul><br>Nous irons même jusqu'à voir comment créer des applications \"kubernetes-native\".",
       "language": "French",
@@ -715,7 +720,7 @@
       "mainTag": "Methods & Tooling"
     },
     "124": {
-      "title": "UNA-GITLAB, LE TP À ROULETTE !",
+      "title": "UNA-GITLAB, le TP à roulette !",
       "complexity": "Intermediate",
       "description": "A l’image de Perceval et Karadock, Logan et Kevin reviennent d’une quête dans la contrée de Gitlab et vont vous compter leurs aventures pleines de découvertes et de rebondissements. L’on espère que Père Blaise réussira à prendre des notes…<br><img src=\"https://gabich.files.wordpress.com/2010/09/perceval.png\" alt=\"\"><br>Lors de cette quête, il sera nécessaire de mettre en place une intégration continue pour une armée de développeurs sanguinaires qui ont plein de besoins bizarres… Et à la force de leur épée, de leur courage et pas du tout de l’aide de Merlin (qui ne sait toujours rien faire…), Logan et Kevin vous guidereront afin de créer une CI complète avec job, stage, intégration avec des outils externes (PostgreSQL, Artifactory, Google Cloud Platform, Docker in Docker, SAST, DAST…) tout en la gardant simple et versionnable \uD83D\uDE0D.<br>L’on pourra même finir sur un exemple de mise en place de la CI dans le cloud (Google Cloud ou Clever) pour avoir une CI qui file dans les nuages \uD83D\uDE80.",
       "language": "French",
@@ -728,6 +733,20 @@
         "DevOps"
       ],
       "mainTag": "DevOps"
+    },
+    "125": {
+      "title": "Engineering Machine Learning Technologies",
+      "complexity": "Intermediate",
+      "description": "Google Assistant includes a variety of machine learning technologies, covering from neural beam forming, speech recognition to NPL. These are a great examples of how to define machine learning products and the difficulties that you have to face in order to successfully introduce them in new products. In this talk, we will review the main three papers where ML technologies are describe, highlighting the important decision made to bring Google Assistant to life from technical and products perspective.",
+      "language": "English",
+      "presentation": "",
+      "speakers": [
+        "almo"
+      ],
+      "tags": [
+        "Machine Learning"
+      ],
+      "mainTag": "Machine Learning"
     },
     "132": {
       "description": "Get your badge, coffee, enjoy talking with tech edicts around",
@@ -871,6 +890,31 @@
         }
       ],
       "title": "Google Developer Expert"
+    },
+    "almo": {
+      "name": "Andrés Leonardo Martinez Ortiz",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/davilagrau",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/almo",
+          "name": "Github"
+        }
+      ],
+      "photo": "https://media.licdn.com/dms/image/C5603AQGkK3rKCIz4AA/profile-displayphoto-shrink_800_800/0?e=1554336000&v=beta&t=iKTXLT2o8y_3KcTjUrnaua9xlhix6JEFMbeRFOjC7Xg",
+      "photoUrl": "https://media.licdn.com/dms/image/C5603AQGkK3rKCIz4AA/profile-displayphoto-shrink_800_800/0?e=1554336000&v=beta&t=iKTXLT2o8y_3KcTjUrnaua9xlhix6JEFMbeRFOjC7Xg",
+      "bio": "As part of Google Cloud Developer Relations, I am connecting and collaborating with the communities that love technology, supporting European ecosystem on Google Cloud Platform. I amdedicated to help developers and their communities, small and large businesses, educational institutions and government agencies to see the benefits of our technology come to life.",
+      "shortBio": "As part of Google Cloud Developer Relations, I am connecting and collaborating with the communities that love technology...",
+      "company": "Google",
+      "companyLogo": "/images/logos/google.svg",
+      "companyLogoUrl": "/images/logos/google.svg",
+      "title": "Google Cloud Ecosystem",
+      "country": "Suisse",
+      "featured": true
     },
     "horacio_gonzalez": {
       "bio": "Malgré ce que son accent espagnol bien prononcé peut suggérer, Horacio est arrivé en France il y a plus d'une quinzaine d'années. Passionné d'informatique, dans laquelle il est tombé depuis tout petit, il a découvert le développement web en 1997 et depuis il n'a pas arrêté de bosser autour.<br>Après quelques années comme tech leader de la partie frontend de @warp10io chez Cityzen Data, Horacio a rejoint OVH en janvier 2018 en tant que Developer Advocate. Il est cofondateur du FinistDevs, le JUG/GDG français le plus proche de la Silicon Valley.<br>Passionné par le développement web et tout ce qui gravite autour des composants web, Horacio est Google Developer Expert (GDE) en Web Technologies et Flutter.<br>Vous pouvez voir mes dernières talks sur mon profil Notist",
@@ -1534,7 +1578,7 @@
           "socials": [
             {
               "icon": "twitter",
-              "link": "https://twitter.com/cablit",
+              "link": "https://twitter.com/cbalit",
               "name": "Twitter"
             }
           ],
