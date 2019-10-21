@@ -1,9 +1,9 @@
 {
-  "title": "GDG DevFest Season 2019",
+  "title": "GDG DevFest Ica 2019",
   "description": "Be a hero. Start coding!",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "February 8, 2019",
+  "dates": "Noviembre 5, 2019",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
   "share": "Share",
   "followOur": "Follow our",
@@ -11,7 +11,7 @@
   "emailUs": "Email us",
   "partnershipResources": "Partnership Resources",
   "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
+  "buyTicket": "Inscribete",
   "signIn": "Sign in",
   "signOut": "Sign out",
   "viewHighlights": "View Highlights",
@@ -73,7 +73,7 @@
       ]
     }
   ],
-  
+
   "codeOfConduct": "Code of Conduct",
   "aboutBlock": {
     "title": "What you need to know, before you ask.",
@@ -183,7 +183,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "<p>The <a href='http://developers.google.com/groups' target='_blank'>Google Developers Groups (GDGs)</a> are groups of people interested in Google Platforms and Technologies: Android, Chrome, Google Apps, Angular, Cloud, AppEngine... These groups promoting sharing can be found all around the world.</p><p>The objective of GDG Paris is to organise events regularly:</p><ul><li>Google Technology Conferences and others on the Web, Cloud, Mobile.</li><li>Informal theme-based evening sessions around an Aperitif to facilitate meetings of similar minds and thoughts </li><li>Competitions (Hackathon, ...)</li></ul>"
+    "description": "<p>Los <a href='http://developers.google.com/groups' target='_blank'>Google Developers Groups (GDGs)</a> son grupos de personas interesadas en las plataformas y tecnologías de Google: Android, Chrome, Google Apps, Angular, Cloud, AppEngine ... Estos grupos que promueven el intercambio se pueden encontrar en todo el mundo.</p><p>El objetivo de GDG Ica es organizar eventos regularmente:</p><ul><li>Conferencias de tecnología de Google y otros en la Web, la nube, los dispositivos móviles.</li><li>Sesiones nocturnas informales basadas en temas en torno a un aperitivo para facilitar reuniones de mentes y pensamientos similares </li><li>Competencias (Hackathon, ...)</li></ul>"
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"

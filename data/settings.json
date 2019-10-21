@@ -1,7 +1,7 @@
 {
   "organizer": {
-    "name": "GDG Paris",
-    "twitter": "GDGParis",
+    "name": "GDG Ica",
+    "twitter": "GDGIca",
     "blog": "https://medium.com/gdg-lviv",
     "url": "https://www.meetup.com/fr-FR/gdg-paris/"
   },
@@ -31,7 +31,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "Be a hero. Start coding!",
+      "description": "Sé un héroe ¡Comienza a programar!",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/home.jpg"
@@ -99,8 +99,8 @@
   "location": {
     "label": "Location",
     "name": "La Grande Crypte",
-    "city": "Paris",
-    "short": "Paris, France",
+    "city": "Ica",
+    "short": "Ica, Perú",
     "address": "69 bis Rue Boissière, 75016 Paris, France",
     "pointer": {
       "latitude": 48.868453,
@@ -111,7 +111,7 @@
       "latitude": 48,
       "longitude": 2
     },
-    "description": "Located in the center of Paris, La Grande Crypte is the perfect place to host you, our speakers and our sponsors."
+    "description": "El colegio de Ingenieros es el lugar perfecto para recibirlo a usted, a nuestros oradores y a nuestros patrocinadores."
   },
   "mediaQueries": {
     "xs": {
